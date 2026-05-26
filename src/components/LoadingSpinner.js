@@ -1,4 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import AIRobot from "./AIRobot";
-const LoadingSpinner = ({ message = "Loading..." }) => (_jsxs("div", { className: "fixed inset-0 z-50 flex flex-col items-center justify-center gradient-bg", children: [_jsx(AIRobot, { size: "lg" }), _jsxs("div", { className: "mt-6 flex items-center gap-2", children: [_jsx("div", { className: "w-2 h-2 rounded-full bg-primary animate-bounce", style: { animationDelay: "0s" } }), _jsx("div", { className: "w-2 h-2 rounded-full bg-primary animate-bounce", style: { animationDelay: "0.2s" } }), _jsx("div", { className: "w-2 h-2 rounded-full bg-primary animate-bounce", style: { animationDelay: "0.4s" } })] }), _jsx("p", { className: "mt-4 text-muted-foreground font-medium", children: message })] }));
-export default LoadingSpinner;
